@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A2440E2A111AC2007F2CE7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2440D2A111AC2007F2CE7 /* Constant.swift */; };
+		18A244102A111E7C007F2CE7 /* SidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2440F2A111E7C007F2CE7 /* SidebarItem.swift */; };
+		18A244122A111EB1007F2CE7 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A244112A111EB1007F2CE7 /* HomeVM.swift */; };
+		18A244162A112209007F2CE7 /* OperationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A244152A112209007F2CE7 /* OperationsView.swift */; };
+		18A244182A11221C007F2CE7 /* TransectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A244172A11221C007F2CE7 /* TransectionsView.swift */; };
+		18A2441A2A112239007F2CE7 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A244192A112239007F2CE7 /* ReportsView.swift */; };
+		18A2441C2A112243007F2CE7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2441B2A112243007F2CE7 /* SettingsView.swift */; };
+		18A2441E2A112250007F2CE7 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2441D2A112250007F2CE7 /* AccountView.swift */; };
 		18FD587E29F920B900042E3D /* XpensifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD587D29F920B900042E3D /* XpensifyApp.swift */; };
-		18FD588029F920B900042E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD587F29F920B900042E3D /* ContentView.swift */; };
+		18FD588029F920B900042E3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD587F29F920B900042E3D /* HomeView.swift */; };
 		18FD588229F920BA00042E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD588129F920BA00042E3D /* Assets.xcassets */; };
 		18FD588629F920BA00042E3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD588529F920BA00042E3D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A2440D2A111AC2007F2CE7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		18A2440F2A111E7C007F2CE7 /* SidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItem.swift; sourceTree = "<group>"; };
+		18A244112A111EB1007F2CE7 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		18A244152A112209007F2CE7 /* OperationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsView.swift; sourceTree = "<group>"; };
+		18A244172A11221C007F2CE7 /* TransectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransectionsView.swift; sourceTree = "<group>"; };
+		18A244192A112239007F2CE7 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		18A2441B2A112243007F2CE7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		18A2441D2A112250007F2CE7 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		18FD587A29F920B900042E3D /* Xpensify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xpensify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FD587D29F920B900042E3D /* XpensifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XpensifyApp.swift; sourceTree = "<group>"; };
-		18FD587F29F920B900042E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18FD587F29F920B900042E3D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		18FD588129F920BA00042E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FD588329F920BA00042E3D /* Xpensify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Xpensify.entitlements; sourceTree = "<group>"; };
 		18FD588529F920BA00042E3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,6 +49,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A244062A110DF1007F2CE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18FD587F29F920B900042E3D /* HomeView.swift */,
+				18A244152A112209007F2CE7 /* OperationsView.swift */,
+				18A244172A11221C007F2CE7 /* TransectionsView.swift */,
+				18A244192A112239007F2CE7 /* ReportsView.swift */,
+				18A2441B2A112243007F2CE7 /* SettingsView.swift */,
+				18A2441D2A112250007F2CE7 /* AccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18A244072A110E01007F2CE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18A2440F2A111E7C007F2CE7 /* SidebarItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18A244082A110E0A007F2CE7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18A244112A111EB1007F2CE7 /* HomeVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18A244092A110E1A007F2CE7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18A2440A2A110E28007F2CE7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18A2440D2A111AC2007F2CE7 /* Constant.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		18FD587129F920B800042E3D = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +112,12 @@
 		18FD587C29F920B900042E3D /* Xpensify */ = {
 			isa = PBXGroup;
 			children = (
+				18A244062A110DF1007F2CE7 /* Views */,
+				18A244082A110E0A007F2CE7 /* ViewModels */,
+				18A244072A110E01007F2CE7 /* Models */,
+				18A244092A110E1A007F2CE7 /* Networking */,
+				18A2440A2A110E28007F2CE7 /* Utilities */,
 				18FD587D29F920B900042E3D /* XpensifyApp.swift */,
-				18FD587F29F920B900042E3D /* ContentView.swift */,
 				18FD588129F920BA00042E3D /* Assets.xcassets */,
 				18FD588329F920BA00042E3D /* Xpensify.entitlements */,
 				18FD588429F920BA00042E3D /* Preview Content */,
@@ -139,7 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FD588029F920B900042E3D /* ContentView.swift in Sources */,
+				18A244162A112209007F2CE7 /* OperationsView.swift in Sources */,
+				18FD588029F920B900042E3D /* HomeView.swift in Sources */,
+				18A244122A111EB1007F2CE7 /* HomeVM.swift in Sources */,
+				18A2441C2A112243007F2CE7 /* SettingsView.swift in Sources */,
+				18A2441E2A112250007F2CE7 /* AccountView.swift in Sources */,
+				18A244102A111E7C007F2CE7 /* SidebarItem.swift in Sources */,
+				18A244182A11221C007F2CE7 /* TransectionsView.swift in Sources */,
+				18A2440E2A111AC2007F2CE7 /* Constant.swift in Sources */,
+				18A2441A2A112239007F2CE7 /* ReportsView.swift in Sources */,
 				18FD587E29F920B900042E3D /* XpensifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
