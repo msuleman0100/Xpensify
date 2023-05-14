@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189963892A11262300BBFC80 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189963882A11262300BBFC80 /* SignupView.swift */; };
+		1899638B2A11262E00BBFC80 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899638A2A11262E00BBFC80 /* LoginView.swift */; };
 		18A2440E2A111AC2007F2CE7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2440D2A111AC2007F2CE7 /* Constant.swift */; };
 		18A244102A111E7C007F2CE7 /* SidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2440F2A111E7C007F2CE7 /* SidebarItem.swift */; };
 		18A244122A111EB1007F2CE7 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A244112A111EB1007F2CE7 /* HomeVM.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189963882A11262300BBFC80 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		1899638A2A11262E00BBFC80 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		18A2440D2A111AC2007F2CE7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		18A2440F2A111E7C007F2CE7 /* SidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItem.swift; sourceTree = "<group>"; };
 		18A244112A111EB1007F2CE7 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		18A244062A110DF1007F2CE7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				189963882A11262300BBFC80 /* SignupView.swift */,
+				1899638A2A11262E00BBFC80 /* LoginView.swift */,
 				18FD587F29F920B900042E3D /* HomeView.swift */,
 				18A244152A112209007F2CE7 /* OperationsView.swift */,
 				18A244172A11221C007F2CE7 /* TransectionsView.swift */,
@@ -209,9 +215,11 @@
 				18A2441C2A112243007F2CE7 /* SettingsView.swift in Sources */,
 				18A2441E2A112250007F2CE7 /* AccountView.swift in Sources */,
 				18A244102A111E7C007F2CE7 /* SidebarItem.swift in Sources */,
+				1899638B2A11262E00BBFC80 /* LoginView.swift in Sources */,
 				18A244182A11221C007F2CE7 /* TransectionsView.swift in Sources */,
 				18A2440E2A111AC2007F2CE7 /* Constant.swift in Sources */,
 				18A2441A2A112239007F2CE7 /* ReportsView.swift in Sources */,
+				189963892A11262300BBFC80 /* SignupView.swift in Sources */,
 				18FD587E29F920B900042E3D /* XpensifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

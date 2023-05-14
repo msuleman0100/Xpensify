@@ -11,7 +11,7 @@ import SwiftUI
 struct XpensifyApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            SignupView()
         }
     }
 }
